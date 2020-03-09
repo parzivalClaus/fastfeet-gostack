@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Documents/Bootcamp/FastFeet/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/d2e291e64923ee73fef1dbcbc0713ff3/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
