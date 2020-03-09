@@ -50,8 +50,8 @@ module.exports = {
     'no-console': ['error', { allow: ['tron']}],
     'react/jsx-props-no-spreading': 'off',
     'no-undef': 'off',
-    'react/prop-types': 'off',
-
+    //'react/prop-types': 'off',
+    'no-unused-vars': 'off',
     // 'react-hooks/rules-of-hooks': 'error',
     // 'react-hooks/exhaustive-deps': 'warn'
   },

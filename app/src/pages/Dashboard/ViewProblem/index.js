@@ -107,3 +107,13 @@ function ViewProblem({ navigation, route, isFocused }) {
 }
 
 export default withNavigationFocus(ViewProblem);
+
+ViewProblem.propTypes = {
+  route: PropType.element.isRequired,
+  navigation: PropType.element.isRequired,
+  isFocused: PropType.element,
+};
+
+ViewProblem.defaultProps = {
+  isFocused: false,
+};

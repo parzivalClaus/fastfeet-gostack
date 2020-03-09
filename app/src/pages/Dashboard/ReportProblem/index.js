@@ -57,3 +57,8 @@ export default function ReportProblem({ navigation, route }) {
     </Container>
   );
 }
+
+ReportProblem.propTypes = {
+  route: PropType.element.isRequired,
+  navigation: PropType.element.isRequired,
+};

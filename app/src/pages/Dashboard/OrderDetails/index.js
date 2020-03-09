@@ -177,3 +177,8 @@ function OrderDetails({ route, navigation }) {
 }
 
 export default withNavigationFocus(OrderDetails);
+
+OrderDetails.propTypes = {
+  route: PropType.element.isRequired,
+  navigation: PropType.element.isRequired,
+};

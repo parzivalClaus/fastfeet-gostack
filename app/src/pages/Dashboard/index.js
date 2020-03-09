@@ -253,3 +253,12 @@ function Dashboard({ navigation, isFocused }) {
 }
 
 export default withNavigationFocus(Dashboard);
+
+Dashboard.propTypes = {
+  navigation: PropType.element.isRequired,
+  isFocused: PropType.element,
+};
+
+Dashboard.defaultProps = {
+  isFocused: false,
+};
