@@ -39,9 +39,10 @@ docker run --name redisfastfeet -p 6379:6379 -d -t redis:alpine
 
 1.  Acesse a pasta app
 2.  Rodar 'yarn' para instalar as dependências
-3.  Com o emulador conectado, rodar 'react-native run-android ou run-ios
-4.  Se precisar parar e conectar de novo, rdar 'react-native start
-5.  Obs: para emular no celular físico, rodar os comandos:
+3.  Alterar o arquivo .env.example para .env e alterar as informações
+4.  Com o emulador conectado, rodar 'react-native run-android ou run-ios
+5.  Se precisar parar e conectar de novo, rdar 'react-native start
+6.  Obs: para emular no celular físico, rodar os comandos:
 ``` 
 adb reverse tcp:8081 tcp:8081 // App
 adb reverse tcp:3333 tcp:3333 // Api
