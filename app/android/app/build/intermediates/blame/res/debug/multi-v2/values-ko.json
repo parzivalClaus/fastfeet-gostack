@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/39c89448f9d8d462557294e925ed0d6d/res/values-ko/values-ko.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/6ea080129c21d2c7a8f97c97cdda85ca/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/03d06dcf6ad323c5c63bde23ac524366/res/values-ko/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,347,518,632,732,906,1021,1154,1274,1478,1579,1746,1862,2039,2184,2269,2353",
-                        "endColumns": "101,170,113,99,173,114,132,119,203,100,166,115,176,144,84,83,99",
-                        "endOffsets": "346,517,631,731,905,1020,1153,1273,1477,1578,1745,1861,2038,2183,2268,2352,2452"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2685,2791,2962,3080,3184,3358,3477,3614,3918,4122,4227,4394,4514,4691,4840,4929,5017",
-                        "endColumns": "105,170,117,103,173,118,136,123,203,104,166,119,176,148,88,87,103",
-                        "endOffsets": "2786,2957,3075,3179,3353,3472,3609,3733,4117,4222,4389,4509,4686,4835,4924,5012,5116"
-                    }
-                },
-                {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/a2e9d7dcdf31ee1ac5f62c13f243f62f/res/values-ko/values.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/5a1d5b1a800fd71703fa4b71e942befc/res/values-ko/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/c75386bd9ffcc5391c3918c097ac8bf0/res/values-ko/values-ko.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/3fcb074c42d52c47907f7b8177324839/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +52,23 @@
                         "startOffsets": "5199",
                         "endColumns": "100",
                         "endOffsets": "5295"
+                    }
+                },
+                {
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/16aef1c3678b57016d5250cb256c2be7/res/values-ko/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,518,632,732,906,1021,1154,1274,1478,1579,1746,1862,2039,2184,2269,2353",
+                        "endColumns": "101,170,113,99,173,114,132,119,203,100,166,115,176,144,84,83,99",
+                        "endOffsets": "346,517,631,731,905,1020,1153,1273,1477,1578,1745,1861,2038,2183,2268,2352,2452"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2685,2791,2962,3080,3184,3358,3477,3614,3918,4122,4227,4394,4514,4691,4840,4929,5017",
+                        "endColumns": "105,170,117,103,173,118,136,123,203,104,166,119,176,148,88,87,103",
+                        "endOffsets": "2786,2957,3075,3179,3353,3472,3609,3733,4117,4222,4389,4509,4686,4835,4924,5012,5116"
                     }
                 }
             ]

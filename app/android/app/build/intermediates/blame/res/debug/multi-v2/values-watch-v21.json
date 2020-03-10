@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/39c89448f9d8d462557294e925ed0d6d/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/6ea080129c21d2c7a8f97c97cdda85ca/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

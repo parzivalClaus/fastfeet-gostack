@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { withNavigationFocus } from '@react-navigation/compat';
 import { format, parseISO } from 'date-fns';
+import PropTypes from 'prop-types';
 
 import {
   Container,
@@ -109,9 +110,9 @@ function ViewProblem({ navigation, route, isFocused }) {
 export default withNavigationFocus(ViewProblem);
 
 ViewProblem.propTypes = {
-  route: PropType.element.isRequired,
-  navigation: PropType.element.isRequired,
-  isFocused: PropType.element,
+  route: PropTypes.element.isRequired,
+  navigation: PropTypes.element.isRequired,
+  isFocused: PropTypes.element,
 };
 
 ViewProblem.defaultProps = {

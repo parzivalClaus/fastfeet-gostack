@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/d2e291e64923ee73fef1dbcbc0713ff3/res/values-land/values-land.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/d6501aca81ab3ec9a782c8641539fe1c/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/39c89448f9d8d462557294e925ed0d6d/res/values-land/values-land.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/6ea080129c21d2c7a8f97c97cdda85ca/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

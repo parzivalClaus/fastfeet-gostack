@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/c75386bd9ffcc5391c3918c097ac8bf0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/39c89448f9d8d462557294e925ed0d6d/res/values-v16/values-v16.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/6ea080129c21d2c7a8f97c97cdda85ca/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/3fcb074c42d52c47907f7b8177324839/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

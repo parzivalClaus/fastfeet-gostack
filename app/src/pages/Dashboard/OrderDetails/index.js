@@ -2,6 +2,7 @@ import React from 'react';
 import { Alert } from 'react-native';
 import { format, parseISO } from 'date-fns';
 import { withNavigationFocus } from '@react-navigation/compat';
+import PropTypes from 'prop-types';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -179,6 +180,6 @@ function OrderDetails({ route, navigation }) {
 export default withNavigationFocus(OrderDetails);
 
 OrderDetails.propTypes = {
-  route: PropType.element.isRequired,
-  navigation: PropType.element.isRequired,
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired,
 };

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/c75386bd9ffcc5391c3918c097ac8bf0/res/values-lo/values-lo.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/5a1d5b1a800fd71703fa4b71e942befc/res/values-lo/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3946",
+                        "endColumns": "190",
+                        "endOffsets": "4132"
+                    }
+                },
+                {
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/3fcb074c42d52c47907f7b8177324839/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/39c89448f9d8d462557294e925ed0d6d/res/values-lo/values-lo.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/6ea080129c21d2c7a8f97c97cdda85ca/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/03d06dcf6ad323c5c63bde23ac524366/res/values-lo/values.xml",
+                    "source": "/home/parzivalclaus/.gradle/caches/transforms-2/files-2.1/16aef1c3678b57016d5250cb256c2be7/res/values-lo/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,23 +69,6 @@
                         "startOffsets": "2772,2882,3084,3216,3325,3536,3663,3801,4137,4348,4455,4652,4783,5013,5204,5302,5401",
                         "endColumns": "109,201,131,108,210,126,137,144,210,106,196,130,229,190,97,98,113",
                         "endOffsets": "2877,3079,3211,3320,3531,3658,3796,3941,4343,4450,4647,4778,5008,5199,5297,5396,5510"
-                    }
-                },
-                {
-                    "source": "/home/parzival/.gradle/caches/transforms-2/files-2.1/a2e9d7dcdf31ee1ac5f62c13f243f62f/res/values-lo/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3946",
-                        "endColumns": "190",
-                        "endOffsets": "4132"
                     }
                 }
             ]

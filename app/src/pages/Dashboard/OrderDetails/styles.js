@@ -83,6 +83,7 @@ export const DeliveryEndDate = styled.View``;
 
 export const ActionButtons = styled.View`
   margin-top: 15px;
+  margin-bottom: 25px;
 `;
 export const Withdraw = styled(TouchableOpacity)`
   background: #e74040;

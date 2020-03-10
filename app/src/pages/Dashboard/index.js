@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { withNavigationFocus } from '@react-navigation/compat';
+import PropTypes from 'prop-types';
 
 import { format, parseISO } from 'date-fns';
 
@@ -255,8 +256,8 @@ function Dashboard({ navigation, isFocused }) {
 export default withNavigationFocus(Dashboard);
 
 Dashboard.propTypes = {
-  navigation: PropType.element.isRequired,
-  isFocused: PropType.element,
+  navigation: PropTypes.object.isRequired,
+  isFocused: PropTypes.bool,
 };
 
 Dashboard.defaultProps = {

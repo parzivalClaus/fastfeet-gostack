@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, Text } from 'react-native';
 import { useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -131,6 +132,6 @@ export default function ConfirmDelivery({ route, navigation }) {
 }
 
 ConfirmDelivery.propTypes = {
-  route: PropType.element.isRequired,
-  navigation: PropType.element.isRequired,
+  route: PropTypes.element.isRequired,
+  navigation: PropTypes.element.isRequired,
 };

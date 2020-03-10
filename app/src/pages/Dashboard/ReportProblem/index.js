@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Alert } from 'react-native';
+import PropTypes from 'prop-types';
 
 import {
   Container,
@@ -59,6 +60,6 @@ export default function ReportProblem({ navigation, route }) {
 }
 
 ReportProblem.propTypes = {
-  route: PropType.element.isRequired,
-  navigation: PropType.element.isRequired,
+  route: PropTypes.element.isRequired,
+  navigation: PropTypes.element.isRequired,
 };

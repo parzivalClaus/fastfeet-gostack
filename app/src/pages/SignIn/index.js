@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, StatusBar } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import { signInRequest } from '~/store/modules/auth/actions';
 
@@ -52,5 +53,5 @@ export default function SignIn({ navigation }) {
 }
 
 SignIn.propTypes = {
-  navigation: PropTypes.element.isRequired,
+  navigation: PropTypes.object.isRequired,
 };

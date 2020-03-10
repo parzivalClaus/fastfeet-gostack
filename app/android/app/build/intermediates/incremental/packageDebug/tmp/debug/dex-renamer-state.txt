@@ -1,4 +1,4 @@
-#Mon Mar 09 13:29:31 BRT 2020
-base.0=/home/parzival/Desktop/fastfeet-gostack/app/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Mar 09 21:07:07 BRT 2020
+base.0=/home/parzivalclaus/Documents/fastfeet-gostack/app/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
