@@ -2,4 +2,3 @@ node_modules
 yarn-error.log
 /server/tmp/uploads
 .env
-.env.example
