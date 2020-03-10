@@ -18,19 +18,20 @@ export const ConfirmContainer = styled.View`
   margin-top: -90px;
   border-radius: 4px;
   position: relative;
+
 `;
 
 export const CameraContainer = styled.View`
   width: 100%;
-  height: 500px;
+  height: 100%;
   justify-content: center;
   border-radius: 4px;
 `;
 
 export const StyledRNCamera = styled(RNCamera)`
   display: flex;
-  flex: 1;
-  background: #358;
+  width: 100%;
+  height: 100%;
 `;
 
 export const CameraView = styled.View`
@@ -57,8 +58,7 @@ export const StyledText = styled.Text`
 
 export const ChangePicture = styled(TouchableOpacity)`
   position: relative;
-  height: 420px;
-  margin-top: -20px;
+  height: 85%;
 `;
 
 export const PreviewPicture = styled.Image`

@@ -69,7 +69,8 @@ function ViewProblem({ navigation, route, isFocused }) {
       refreshList();
     }
     loadList();
-  }, [isFocused]);
+
+  }, []);
 
   return (
     <Container>
@@ -110,9 +111,9 @@ function ViewProblem({ navigation, route, isFocused }) {
 export default withNavigationFocus(ViewProblem);
 
 ViewProblem.propTypes = {
-  route: PropTypes.element.isRequired,
-  navigation: PropTypes.element.isRequired,
-  isFocused: PropTypes.element,
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired,
+  isFocused: PropTypes.bool,
 };
 
 ViewProblem.defaultProps = {

@@ -8,7 +8,7 @@ export const Container = styled.View`
   background: #fff;
 `;
 
-export const InfoContainer = styled.View`
+export const InfoContainer = styled.ScrollView`
   background: #fff;
   border-radius: 4px;
   margin-top: -90px;
@@ -83,7 +83,6 @@ export const DeliveryEndDate = styled.View``;
 
 export const ActionButtons = styled.View`
   margin-top: 15px;
-  margin-bottom: 25px;
 `;
 export const Withdraw = styled(TouchableOpacity)`
   background: #e74040;

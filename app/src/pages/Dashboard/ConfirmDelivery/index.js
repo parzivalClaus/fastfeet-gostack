@@ -132,6 +132,6 @@ export default function ConfirmDelivery({ route, navigation }) {
 }
 
 ConfirmDelivery.propTypes = {
-  route: PropTypes.element.isRequired,
-  navigation: PropTypes.element.isRequired,
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired,
 };

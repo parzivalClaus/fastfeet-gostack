@@ -60,6 +60,6 @@ export default function ReportProblem({ navigation, route }) {
 }
 
 ReportProblem.propTypes = {
-  route: PropTypes.element.isRequired,
-  navigation: PropTypes.element.isRequired,
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired,
 };

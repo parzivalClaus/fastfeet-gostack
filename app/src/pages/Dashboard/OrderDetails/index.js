@@ -94,7 +94,7 @@ function OrderDetails({ route, navigation }) {
 
   return (
     <Container>
-      <InfoContainer>
+      <InfoContainer persistentScrollbar={true}>
         <OrderInfo>
           <InfoTitle>
             <Icon name="local-shipping" size={25} color="#7D40E7" />
