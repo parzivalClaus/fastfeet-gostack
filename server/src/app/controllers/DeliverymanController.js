@@ -33,8 +33,8 @@ class DeliverymanController {
         },
       ],
       order: [['name', 'ASC']],
-      limit: 5,
-      offset: (atualPage - 1) * 5,
+      limit: 4,
+      offset: (atualPage - 1) * 4,
     });
     return res.json(deliverymans);
   }

@@ -48,3 +48,5 @@ adb reverse tcp:8081 tcp:8081 // App
 adb reverse tcp:3333 tcp:3333 // Api
 adb reverse tcp:9090 tcp:9090 // Reactotron
 ```
+
+Obs: Projeto testado apenas no Android

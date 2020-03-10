@@ -152,6 +152,7 @@ export const ActionButton = styled.button``;
 export const ContextMenu = styled.div`
   display: ${props =>
     props.visible === true ? 'block !important' : 'none !important'};
+    position: relative;
 
   button {
     background: none;
@@ -169,8 +170,8 @@ export const ContextMenu = styled.div`
     border-radius: 4px;
     z-index: 999;
     border: 1px solid #ddd;
-    margin-left: 10px;
-    margin-top: 20px;
+    transform: translate(-50%, -119%);
+    box-shadow: 2px 1px 5px #a0a0a0;
 
     li {
       display: flex;

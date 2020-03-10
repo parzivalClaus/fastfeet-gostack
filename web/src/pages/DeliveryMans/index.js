@@ -51,7 +51,7 @@ export default function DeliveryMans() {
       setDeliverymans(data);
     }
     loadDeliverymans();
-  }, [page, q, reg, deliverymans.length]);
+  }, [page, q, reg]);
 
   function handleNextPage() {
     setPage(page + 1);
@@ -190,10 +190,10 @@ export default function DeliveryMans() {
           type="button"
           onClick={handleNextPage}
           disabled={
-            (page !== 1 && reg / 5 <= page) ||
-            (page === 1 && deliverymans.length < 5) ||
-            (q !== '' && reg === 5) ||
-            reg === 5
+            (page !== 1 && reg / 4 <= page) ||
+            (page === 1 && deliverymans.length < 4) ||
+            (q !== '' && reg === 4) ||
+            reg === 4
           }
         >
           Próxima página

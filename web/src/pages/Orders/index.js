@@ -103,7 +103,7 @@ export default function Orders() {
       setOrders(data);
     }
     loadOrders();
-  }, [page, q, reg, orders.length]);
+  }, [page, q, reg]);
 
   async function handleDelete(id) {
     // eslint-disable-next-line no-alert
@@ -227,8 +227,8 @@ export default function Orders() {
                 <div className="tableTitle">
                   <img
                     src={
-                      order.deliveryman && order.deliveryman.avatar.url
-                        ? order.avatarUrl
+                      order.deliveryman && order.deliveryman.avatar
+                        ? order.deliveryman.avatar.url
                         : `${order.avatarUrl}Sem+Entregador`
                     }
                     alt="avatar"
@@ -256,6 +256,9 @@ export default function Orders() {
                     {order.id === visible ? ' X' : '...'}
                   </ActionButton>
                   <ContextMenu
+                    available={
+                    !(order.end_date || order.canceled_at)
+                    }
                     visible={visible === order.id}
                     className={order.id}
                   >
@@ -282,6 +285,7 @@ export default function Orders() {
                           Editar
                         </button>
                       </li>
+                      <span className="actionDelete">
                       <li>
                         {' '}
                         <MdDeleteForever size={20} color="#DE3B3B" />{' '}
@@ -292,6 +296,7 @@ export default function Orders() {
                           Excluir
                         </button>
                       </li>
+                      </span>
                     </ul>
                   </ContextMenu>
                 </div>
@@ -308,10 +313,10 @@ export default function Orders() {
             type="button"
             onClick={handleNextPage}
             disabled={
-              (page !== 1 && reg / 5 <= page) ||
-              (page === 1 && orders.length < 5) ||
-              (q !== '' && reg === 5) ||
-              reg === 5
+              (page !== 1 && reg / 4 <= page) ||
+              (page === 1 && orders.length < 4) ||
+              (q !== '' && reg === 4) ||
+              reg === 4
             }
           >
             Próxima página

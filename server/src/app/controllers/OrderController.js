@@ -42,8 +42,8 @@ class OrderController {
         },
       ],
       order: [['id', 'ASC']],
-      limit: 5,
-      offset: (atualPage - 1) * 5,
+      limit: 4,
+      offset: (atualPage - 1) * 4,
     });
     return res.json(orders);
   }

@@ -51,7 +51,7 @@ export default function Recipients() {
       setRecipients(data);
     }
     loadRecipients();
-  }, [page, q, reg, recipients.length]);
+  }, [page, q, reg]);
 
   function handleNextPage() {
     setPage(page + 1);

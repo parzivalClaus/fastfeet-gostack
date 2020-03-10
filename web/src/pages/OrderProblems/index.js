@@ -52,7 +52,7 @@ export default function OrderProblems() {
       setOrderProblems(data);
     }
     loadOrderProblems();
-  }, [page, reg, orderProblems.length]);
+  }, [page, reg]);
 
   async function handleDelete(id) {
     // eslint-disable-next-line no-alert
