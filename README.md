@@ -16,10 +16,12 @@
 3.  Instalar, criar e subir um banco de dados Postgres (Usei via docker):
 ```
 docker run --name postgresfastfeet -e POSTGRES_PASSWORD=fastfeet -p 5432:5432 -d postgres:11
+docker start postgresfastfeet
 ```
 4.  Instalar, criar e subir um banco de dados Redis (Usei via docker):
 ```
 docker run --name redisfastfeet -p 6379:6379 -d -t redis:alpine
+docker start redisfastfeet
 ```
 
 5.  Acesse o banco postgres com algum gerenciador como exemplo postbird, crie o banco com nome de fastfeet
