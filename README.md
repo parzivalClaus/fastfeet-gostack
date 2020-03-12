@@ -26,7 +26,6 @@ docker start postgresfastfeet
 docker run --name redisfastfeet -p 6379:6379 -d -t redis:alpine
 docker start redisfastfeet
 ```
-
 5.  Acesse o banco postgres com algum gerenciador como exemplo postbird, crie o banco com nome de fastfeet
 6.  Alterar o arquivo .env.example para .env e alterar as informações
 7. Rodar 'yarn sequelize db:migrate'
@@ -46,8 +45,8 @@ docker start redisfastfeet
 2.  Rodar 'yarn' para instalar as dependências
 3.  Alterar o arquivo .env.example para .env e alterar as informações
 4.  Com o emulador conectado, rodar 'react-native run-android ou run-ios
-5.  Se precisar parar e conectar de novo, rdar 'react-native start
-6.  Obs: para emular no celular físico, rodar os comandos:
+5.  Caso o MetroBundler não fique ativo, ou se precisar parar e conectar de novo, rodar 'react-native start
+6.  Antes de carregar o App, rodar os comandos:
 ``` 
 adb reverse tcp:8081 tcp:8081 // App
 adb reverse tcp:3333 tcp:3333 // Api
