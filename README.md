@@ -9,7 +9,7 @@
 
 ## Instalação e utilização
 
-### Backend - Node.js
+### > Backend - Node.js
 
 > Instalação e Configuração - Docker<br/>
 >Realize a instalação e configuração do docker e permissão para o usuário da maquina rodar o docker conforme este <a href="https://docs.docker.com/">link!</a>
@@ -48,7 +48,7 @@ yarn dev
 yarn queue
 ```
 
-### Frontend WEB - REACTJS
+### > Frontend WEB - REACTJS
 
 1.  Acesse a pasta web
 2.  Rodar para instalar as dependências:
@@ -60,7 +60,7 @@ yarn
 yarn start
 ```
 
-### Mobile APP - React Native
+### > Mobile APP - React Native
 
 1.  Acesse a pasta app
 2.  Rodar para instalar as dependências:
