@@ -11,6 +11,9 @@
 
 ### Backend - Node.js
 
+> Instalação e Configuração - Docker<br/>
+>Realize a instalação e configuração do docker e permissão para o usuário da maquina rodar o docker conforme este <a href="https://docs.docker.com/">link!</a>
+
 1.  Acesse a pasta server e siga os passos abaixos:
 2.  Rodar 'yarn' para instalar as dependências
 3.  Instalar, criar e subir um banco de dados Postgres (Usei via docker):
