@@ -68,19 +68,17 @@ yarn start
 yarn
 ```
 3.  Alterar o arquivo .env.example para .env e alterar as informações
-4.  Com o emulador conectado, rodar:
+4.  Com o emulador/celular conectado, rodar:
 ```
+adb reverse tcp:8081 tcp:8081 // App
+adb reverse tcp:3333 tcp:3333 // Api
+adb reverse tcp:9090 tcp:9090 // Reactotron
+
 react-native run-android
 ```
 5.  Caso o MetroBundler não fique ativo, ou se precisar parar e conectar de novo, rodar:
 ```
 react-native start
-```
-6.  Antes de carregar o App, rodar os comandos:
-``` 
-adb reverse tcp:8081 tcp:8081 // App
-adb reverse tcp:3333 tcp:3333 // Api
-adb reverse tcp:9090 tcp:9090 // Reactotron
 ```
 
 Obs: Projeto testado apenas no Android
