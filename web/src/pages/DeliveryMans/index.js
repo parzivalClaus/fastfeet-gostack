@@ -73,6 +73,10 @@ export default function DeliveryMans() {
 
         setDeliverymans(deliverymans.filter(d => d.id !== id));
 
+        if (deliverymans.length <= 5) {
+          setPage(1);
+        }
+
         toast.success('O entregador foi excluído com sucesso!');
       } catch (err) {
         toast.error(err.error);

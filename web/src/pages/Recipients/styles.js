@@ -150,7 +150,7 @@ export const ActionButton = styled.button``;
 export const ContextMenu = styled.div`
   display: ${props =>
     props.visible === true ? 'block !important' : 'none !important'};
-    position: relative;
+  position: relative;
 
   button {
     background: none;
@@ -205,7 +205,7 @@ export const Button = styled.button`
   font-weight: bold;
   border: 0;
   border-radius: 4px;
-  opacity: ${props => (props.disabled ? 0.5 : 1)};
+  opacity: ${props => (props.disabled ? 0 : 1)};
   &:hover {
     /* background: ${darken(0.07, '#7D40E7')}; */
     background: ${props =>

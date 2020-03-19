@@ -73,6 +73,10 @@ export default function Recipients() {
 
         setRecipients(recipients.filter(r => r.id !== id));
 
+        if (recipients.length <= 5) {
+          setPage(1);
+        }
+
         toast.success('O destinatário foi excluído com sucesso!');
       } catch (err) {
         toast.error(err.response.data.error);

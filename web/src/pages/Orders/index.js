@@ -117,6 +117,10 @@ export default function Orders() {
 
         setOrders(orders.filter(o => o.id !== id));
 
+        if (orders.length <= 5) {
+          setPage(1);
+        }
+
         toast.success('A encomenda foi excluída com sucesso!');
       } catch (err) {
         toast.error(err.error);
@@ -256,9 +260,7 @@ export default function Orders() {
                     {order.id === visible ? ' X' : '...'}
                   </ActionButton>
                   <ContextMenu
-                    available={
-                    !(order.end_date || order.canceled_at)
-                    }
+                    available={!(order.end_date || order.canceled_at)}
                     visible={visible === order.id}
                     className={order.id}
                   >
@@ -286,16 +288,16 @@ export default function Orders() {
                         </button>
                       </li>
                       <span className="actionDelete">
-                      <li>
-                        {' '}
-                        <MdDeleteForever size={20} color="#DE3B3B" />{' '}
-                        <button
-                          type="button"
-                          onClick={() => handleDelete(order.id)}
-                        >
-                          Excluir
-                        </button>
-                      </li>
+                        <li>
+                          {' '}
+                          <MdDeleteForever size={20} color="#DE3B3B" />{' '}
+                          <button
+                            type="button"
+                            onClick={() => handleDelete(order.id)}
+                          >
+                            Excluir
+                          </button>
+                        </li>
                       </span>
                     </ul>
                   </ContextMenu>
